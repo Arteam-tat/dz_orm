@@ -1,0 +1,10 @@
+    def __str__(self):
+        return f'{Publisher.id}:{Publisher.name}'
+def __str__(self):
+        return f'{Book.id}:{Book.title},{Book.publisher}'
+    def __str__(self):
+        return f'{Shop.id}:{Shop.name}'
+    def __str__(self):
+        return f'{Stock.id}:{Stock.shop},{Stock.count}'
+    def __str__(self):
+        return f'{Sale.id}:{Sale.price},{Sale.date_sale}'
