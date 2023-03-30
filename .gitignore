@@ -1,2 +1,7 @@
+*.pdf
+Json.py
+settings.py
+Example.py
+*/
 .env
-dsn.txt
+dsn
